@@ -1,0 +1,46 @@
+#introduction {
+    height: 600px;
+}
+
+h3 {
+  font-size: 50px !important;
+}
+
+.carousel,
+    .item,
+    .active {
+        height: 600px;
+        background-color: transparent;
+        color: white;
+        /* font-size: 50px; */
+        opacity: 0.8;
+    }
+.carousel, .item {
+  margin-top: 350px;
+}
+
+.carousel, .item h3 {
+font-size: 50px !important;
+}
+  
+@media (max-width: 992px) {
+.item h3 {
+    font-size: 3rem;
+}
+}
+
+.carousel .carousel-indicators li {
+    background-color: rgba(256, 256, 256, 0.8);
+    margin-bottom:300px;
+    height: 12px;
+    width: 12px;
+    /* background-color: rgba(70, 70, 70, 0.25); */
+  }
+  
+  .carousel .carousel-indicators .active {
+    background-color: #fff;
+  }
+
+
+  
+  
