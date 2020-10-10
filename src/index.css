@@ -5,9 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(https://res.cloudinary.com/sabago/image/upload/v1602343028/blacksand_bewlex.jpg);
-  background-size: cover;
-  position: relative;
+  /* background-image: url(https://res.cloudinary.com/sabago/image/upload/v1602343028/blacksand_bewlex.jpg); */
+  /* background-size: cover;
+  position: relative; */
 }
 
 code {

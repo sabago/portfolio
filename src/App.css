@@ -42,11 +42,14 @@ body {
   margin: 0;
 }
 
-.App, #meh {
+.App {
   font-family: sans-serif;
   height: 100vh;
-  /* width: 100%;
-  box-sizing: border-box; */
+  position: relative;
+  /* background-image: url(https://res.cloudinary.com/sabago/image/upload/v1602343975/sandribego_mbot69.png);
+  background-size: cover; */
+  width: 100%;
+  /*box-sizing: border-box; */
   /* padding: 30rem 60rem; */
   display: flex;
   flex-direction: column;
@@ -54,6 +57,7 @@ body {
   align-items: center;
   text-align: center;
   min-height: 100vh;
+  
 
   /* position: fixed;
   top: 50%;
@@ -61,6 +65,13 @@ body {
   /* bring your own prefixes 
   transform: translate(-50%, -50%); */
 
+}
+
+#enter {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: white;
 }
 /* .meh {
   margin-top: 500px;

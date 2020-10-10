@@ -19,18 +19,26 @@ function App () {
   }
 
   const toggleHover = () => {
-    setIsHovered(!isHovered);
+    setIsHovered(true);
   }
 
   return (
     <div className="App">
-        <div id="meh" onMouseEnter={toggleHover} >
+      <div className='face'>
+        <img src="https://res.cloudinary.com/sabago/image/upload/v1602343975/sandribego_mbot69.png" alt="cartoon of Abago" object-fit="cover" className="abago-cartoon"/>
+        <div className="eyes">
+          <div className="eye"></div>
+          <div className="eye"></div>
+        </div>
+        <div id="enter" onMouseEnter={toggleHover} >
           {
           isHovered? 
           <Button id="enterButton" variant="primary" onClick={routeChange}>Enter</Button> :
           <h3 id="magic"> Abago's Portfolio </h3> 
           }
       </div>
+      </div>
+       
     </div>
   );
 }
