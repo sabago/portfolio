@@ -8,7 +8,7 @@ export class Home extends React.Component{
   render() {
     return (
         //Change this class name
-      <div className="home">
+      <div id="home">
         <Sidebar />
         <main id="page-wrap">
           <Introduction />

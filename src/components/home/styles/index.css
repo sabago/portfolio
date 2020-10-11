@@ -1,6 +1,14 @@
 #home {
     font-family: sans-serif;
     height: 100vh;
+    /* background-image: url('https://res.cloudinary.com/sabago/image/upload/v1602343028/blacksand_bewlex.jpg');
+    background-size: cover;
+    position: relative; */
+}
+#home, #page-wrap {
+    background-image: url('https://res.cloudinary.com/sabago/image/upload/v1602343028/blacksand_bewlex.jpg');
+    background-size: cover;
+    position: relative;
 }
   
 #page-wrap {

@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import Routes from './routes';
 
 import { BrowserRouter as Router, useHistory } from 'react-router-dom';
+import history from './history';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'mdbreact/dist/css/mdb-free.css';
 
@@ -16,7 +17,7 @@ import { Button } from 'react-bootstrap';
 
 ReactDOM.render(
     <React.StrictMode>
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <Routes />
       </Router>  
   </React.StrictMode>, 
