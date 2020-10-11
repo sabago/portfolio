@@ -44,26 +44,15 @@ body {
 
 .App {
   font-family: sans-serif;
-  height: 100vh;
   position: relative;
-  /* background-image: url(https://res.cloudinary.com/sabago/image/upload/v1602343975/sandribego_mbot69.png);
-  background-size: cover; */
   width: 100%;
-  /*box-sizing: border-box; */
-  /* padding: 30rem 60rem; */
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   min-height: 100vh;
-  
-
-  /* position: fixed;
-  top: 50%;
-  left: 50%;
-  /* bring your own prefixes 
-  transform: translate(-50%, -50%); */
 
 }
 
@@ -73,17 +62,76 @@ body {
   left: 40%;
   color: white;
 }
-/* .meh {
-  margin-top: 500px;
-} */
-/* #page-wrap {
-  text-align: center;
-  overflow: auto;
+
+.face {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-h3 {
-  font-size: 50px !important;
+.eyes {
+  position: absolute;
+  top: 890px;
+  display: flex;
+}
+
+.eyes .eye {
+  position: relative;
+  width: 160px;
+  height: 95px;
+  display: block;
+  background: white;
+  left: 5%;
+  margin-right:220px;
+  /* border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 20px; */
+}
+ 
+#left-eye{
+  border-radius:0 100%;
+  transform:rotate(-20deg);
+}
+#right-eye {
+  border-radius:0 100%;
+  transform:rotate(-35deg);
+}
+
+.pupil { 
+  background: #000;
+  position: relative;
+  top: 45%;
+  left: 80px;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 20px solid #451800;
+}
+
+
+/* .eyes .eye::before {
+  content: '';
+  position: absolute;
+  top: 45%;
+  left: 80px;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  height: 60px;
+  background: black;
+  border-radius: 50%;
 } */
+
+/* .eyes .eye:after { /*pupil */
+    /* position: absolute;
+    bottom: 17px;
+    right: 10px;
+    width: 10px;
+    height: 10px;
+    background: #000;
+    border-radius: 50%;
+    content: " "; */
+   /* }  */
 
 #magic , #enterButton {
   position: absolute;
@@ -96,5 +144,7 @@ h3 {
 #enterButton {
   z-index: 0;
   flex-wrap: nowrap;
+  background-color: orange !important;
+  color: black;
 }
 
