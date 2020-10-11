@@ -5,7 +5,7 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Routes from './routes';
 
-import { BrowserRouter as Router, useHistory } from 'react-router-dom';
+import { HashRouter as Router, useHistory } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 // import 'mdbreact/dist/css/mdb-free.css';
 
