@@ -1,5 +1,5 @@
 import * as React from "react";
-import {  HashRouter as Router, Switch, Route } from "react-router-dom";
+import {  BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { withRouter } from 'react-router-dom';
 
 // import About from "./About/About";
@@ -15,7 +15,7 @@ export default class Routes extends React.Component {
             <Router basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route exact path="/" component={App}/>
-                    <Route path="/home" component={Home} />
+                    <Route exact path="/home" component={Home} />
                     {/*<Route path="/Contact" component={Contact} />
                     <Route path="/Products" component={Products} /> */}
                 </Switch>
