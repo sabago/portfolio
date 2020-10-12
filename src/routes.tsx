@@ -8,6 +8,7 @@ import { withRouter } from 'react-router-dom';
 import { Home } from "./components/home";
 import history from './history';
 import App from "./App";
+// let App = require('./App');
 
 export default class Routes extends React.Component {
     render() {
@@ -15,7 +16,7 @@ export default class Routes extends React.Component {
             <Router basename={process.env.PUBLIC_URL}>
                 <Switch>
                     <Route exact path="/" component={App}/>
-                    <Route path="/home" component={Home} />
+                    <Route exact path="/home" component={Home} />
                     {/*<Route path="/Contact" component={Contact} />
                     <Route path="/Products" component={Products} /> */}
                 </Switch>

@@ -24,6 +24,9 @@
     "react-scripts": "3.4.1",
     "typescript": "^3.8.3"
   },
+  "resolutions": {
+    "react-transition-group": "4.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -50,6 +53,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
+    "dom-helpers": "^3.4.0",
     "gh-pages": "^2.2.0",
     "react-router": "^4.3.1"
   },

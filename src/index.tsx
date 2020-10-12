@@ -1,10 +1,9 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Routes from './routes';
-
 import { BrowserRouter as Router, useHistory } from 'react-router-dom';
 import history from './history';
 import 'bootstrap/dist/css/bootstrap.min.css';
